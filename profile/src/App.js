@@ -5,7 +5,7 @@ function App() {
   return (
    
       <div className="profilePic">
-        <img src={logo} alt="Italian Trulli" height="200px" width="auto"></img>
+        <img src={logo} alt="profile pic" height="200px" width="auto"></img>
         </div>
     
   );
