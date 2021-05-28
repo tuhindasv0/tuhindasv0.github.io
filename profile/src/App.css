@@ -23,7 +23,12 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
+.profilePic{
+  position: absolute;
+  top: 1px;
+  right: 1px;
+  height: 10%;
+}
 .App-link {
   color: #61dafb;
 }
