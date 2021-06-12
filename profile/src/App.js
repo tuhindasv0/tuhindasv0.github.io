@@ -1,11 +1,14 @@
 import logo from "./resources/img/profile.jpeg";
 import TextLoop from "react-text-loop";
-import Link from "react-router-dom";
 import "./App.css";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <div>
+      <Header />
+      <Footer />
       <div className="profilePic">
         <img src={logo} alt="profile pic" height="200px" width="auto"></img>
       </div>
