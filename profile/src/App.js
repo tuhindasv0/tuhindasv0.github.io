@@ -10,7 +10,7 @@ function App() {
       <Header />
       <Footer />
       <div className="profilePic">
-        <img src={logo} alt="profile pic" height="200px" width="auto"></img>
+        <img src={logo} alt="profile pic"></img>
       </div>
       <div className="profileHeader">
         <h2>

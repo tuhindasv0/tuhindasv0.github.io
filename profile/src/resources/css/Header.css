@@ -1,0 +1,13 @@
+.Header {
+  background-color: blue;
+  height: 140px;
+  color: yellow;
+  width: 100%;
+  align-items: center;
+}
+.HeaderIcon {
+  height: 140px;
+}
+.projectButton {
+  float: left;
+}
