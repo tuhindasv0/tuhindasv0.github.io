@@ -9,5 +9,19 @@
   height: 140px;
 }
 .projectButton {
-  float: left;
+  position: relative;
+  left: 200px;
+  top: -90px;
+}
+
+.About {
+  position: relative;
+  left: 350px;
+  top: -150px;
+}
+
+.Contact {
+  position: relative;
+  left: 500px;
+  top: -210px;
 }

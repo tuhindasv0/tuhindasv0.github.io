@@ -7,7 +7,9 @@ function Header() {
       <div>
         <img className="HeaderIcon" src={icon} alt="profile Icon"></img>
       </div>
-      <button className="projectButton">Projects</button>
+      <h1 className="projectButton">Works</h1>
+      <h1 className="About">About</h1>
+      <h1 className="Contact">Contact</h1>
     </div>
   );
 }

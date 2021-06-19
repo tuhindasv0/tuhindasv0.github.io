@@ -9,8 +9,8 @@ function App() {
     <div>
       <Header />
       <Footer />
-      <div className="profilePic">
-        <img src={logo} alt="profile pic"></img>
+      <div>
+        <img className="profilePic" src={logo} alt="profile pic"></img>
       </div>
       <div className="profileHeader">
         <h2>
