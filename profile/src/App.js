@@ -1,30 +1,12 @@
-import logo from "./resources/img/profile.jpeg";
-import TextLoop from "react-text-loop";
 import "./App.css";
-import Header from "./components/Header";
-import Footer from "./components/Footer";
+import Navigation from "./Navbar";
+import Routes from "./Routes";
 
 function App() {
   return (
     <div>
-      <Header />
-      <Footer />
-      <div>
-        <img className="profilePic" src={logo} alt="profile pic"></img>
-      </div>
-      <div className="profileHeader">
-        <h2>
-          I am <br></br>
-          <TextLoop>
-            <span> AWS </span>
-
-            <span> Java</span>
-            <span> React </span>
-          </TextLoop>{" "}
-          <br></br>
-          Developer
-        </h2>
-      </div>
+      <Navigation />
+      <Routes />
     </div>
   );
 }
