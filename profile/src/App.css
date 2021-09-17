@@ -10,7 +10,14 @@
   position: absolute;
   width: 100%;
 }
-
+.ItemPlacement{
+left: 40%;
+position: relative;
+}
+.LogoPlacement{
+  left: 40%;
+  position: relative;
+  }
 .profilePic {
   position: absolute;
   top: 145px;
