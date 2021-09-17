@@ -1,6 +1,6 @@
 import "./App.css";
 import { Fragment } from "react";
-import Header from "./components/Header";
+
 import Footer from "./components/Footer";
 import logo from "./resources/img/profile.jpeg";
 import TextLoop from "react-text-loop";
