@@ -3,21 +3,22 @@
 }
 
 .Footer {
-  background-color: black;
-  height: 200px;
-  color: white;
+  background-color: rgb(229, 229, 238);
+  height: 120px;
+  color: rgb(20, 19, 19);
   bottom: 0px;
   position: absolute;
   width: 100%;
 }
 .ItemPlacement{
 left: 40%;
-position: relative;
+position: absolute;
 }
 .LogoPlacement{
   left: 40%;
-  position: relative;
+  position: absolute;
   }
+
 .profilePic {
   position: absolute;
   top: 145px;
