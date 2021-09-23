@@ -19,7 +19,11 @@ position: absolute;
   position: absolute;
   }
 
-
+.LinkText{
+  color: #ccffff;
+  margin: 10px;
+  text-decoration: auto;
+}
 .profilePic {
   position: absolute;
   top: 145px;
