@@ -20,9 +20,9 @@ const Navigation = (props) => {
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mr-auto IconLink">
-        <Link className="LinkText" to="/">Home</Link>
+        <Link className="LinkText" to="/"><h2>Home</h2></Link>
           
-          <Link className="LinkText" to="/certifications">Certifications</Link>
+          <Link className="LinkText" to="/certifications"><h2>Certifications</h2></Link>
         </Nav>
       </Navbar.Collapse>
     </Navbar>
