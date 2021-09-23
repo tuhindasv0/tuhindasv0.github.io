@@ -17,6 +17,7 @@ const Navigation = (props) => {
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mr-auto IconLink">
           <Nav.Link href="/">Home</Nav.Link>
+          <Nav.Link href="/certifications">Certifications</Nav.Link>
         </Nav>
       </Navbar.Collapse>
     </Navbar>
