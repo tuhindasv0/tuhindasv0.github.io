@@ -8,10 +8,11 @@
   flex-direction: row;
 }
 .HeaderIcon {
-  height: 140px;
+  height: 120px;
   position: absolute;
-  top: -10px;
+  top: 0px;
   display: flex;
+  margin: 10px;
 }
 .projectButton {
   position: relative;
@@ -32,6 +33,10 @@
 }
 
 .IconLink {
-  right: -600px;
+  right: 0px;
   position: relative;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  flex-shrink: 1;
 }
