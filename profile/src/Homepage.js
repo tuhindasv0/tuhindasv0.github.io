@@ -9,10 +9,8 @@ const Homepage = () => {
   return (
     <Fragment>
       <div>
-        <Footer />
-        <div>
+        <div className="profileHero">
           <img className="profilePic" src={logo} alt="profile pic"></img>
-        </div>
 
         <div className="profileHeader">
           <h2>
@@ -27,6 +25,8 @@ const Homepage = () => {
             Developer
           </h2>
         </div>
+        </div>
+        <Footer />
       </div>
     </Fragment>
   );

@@ -4,7 +4,8 @@ import awsIcon from "../resources/img/aws.png";
 import "./../resources/css/Certificates.css"
 function Certificates() {
   return (
-    <div >
+    <div>
+    <div className="Certificates" >
       <img className="CertLogo" src={azureIcon} alt="Microsoft Azure icon" />
       <section className="TextCert">
         <h3 >Azure Developer Associate</h3>
@@ -35,7 +36,9 @@ function Certificates() {
           Certification ID <span>EV17R761K2VQQ7K0</span>
         </p>
       </section>
-
+      <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="ee6d0981-34c3-4aea-b9af-623ca5711cca" data-share-badge-host="https://www.credly.com"></div>
+      
+      </div>
       <Footer />
     </div>
   );

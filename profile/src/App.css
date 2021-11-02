@@ -7,7 +7,7 @@
   height: 120px;
   color: rgb(20, 19, 19);
   bottom: 0px;
-  position: absolute;
+  position: relative;
   width: 100%;
   display: block;
 
@@ -16,13 +16,15 @@
 .ItemPlacement{
   display: block;
   text-align: center;
-  margin: 10px 10px 20px 10px;
+  margin: 0px 10px 20px 0px;
 }
 
 .LogoPlacement{
   text-align: center;
 }
-
+.profileHero{
+  min-height: 100%;
+}
 .LinkText{
   color: #ccffff;
   margin: 0px 10px;
@@ -42,6 +44,7 @@
 
 .profileHeader {
   background: linear-gradient(45deg, #ccffff, #ffcccc);
+  height: 780px;
   padding: 10px;
 }
 

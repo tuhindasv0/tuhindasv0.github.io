@@ -5,7 +5,7 @@
     height: 100px;
     position: relative;
     top: 30px;
-    right: -20px
+    
     }
 
 .TextCert{
@@ -18,4 +18,9 @@
     /*left: 10%;*/
     bottom: 70px;
     
+}
+.Certificates{
+
+    margin-bottom: 35px;
+    margin-left: 30px;
 }
